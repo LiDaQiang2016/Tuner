@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <com.park.tunner.DashboardView
+        android:id="@+id/tunner_dashboard_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:layout_below="@+id/tunner_dashboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/E4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E4" />
+            <RadioButton android:id="@+id/B3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B3" />
+            <RadioButton android:id="@+id/G3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G3" />
+            <RadioButton android:id="@+id/D3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D3" />
+            <RadioButton android:id="@+id/A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A2" />
+            <RadioButton android:id="@+id/E2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E2" />
+
+            <RadioButton android:id="@+id/E1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E1" />
+            <RadioButton android:id="@+id/C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C7" />
+        </RadioGroup>
+    </RadioGroup>
+
+</RelativeLayout>
